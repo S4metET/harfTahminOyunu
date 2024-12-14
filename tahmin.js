@@ -1,6 +1,6 @@
 const kelime = "javascript";
 let gizliKelime = "_".repeat(kelime.length).split("");
-let kalanHak = 6;
+let kalanHak = 10;
 let tamamlandimi = false;
 
 console.log("Kelimeyi tahmin etmeye başla:");
