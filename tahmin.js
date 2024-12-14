@@ -11,9 +11,7 @@ for (let i = 0; i < kalanHak; i++) {
         tamamlandimi = true;
         break;
     }
-
     const tahmin = prompt(`Bir harf tahmin et (Kalan hak: ${kalanHak - i}):`).toLowerCase();
-
     if (tahmin.length !== 1 || !/^[a-z]$/i.test(tahmin)){
         console.log("Yalnız bir harf gir.");
         i--;
